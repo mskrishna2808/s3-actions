@@ -2,7 +2,7 @@ name : Testing S3 actions
 
 on:
   push:
-    branches: [feature-1]
+    branches: main
 
 jobs:
   Testing_sonarqube_report:
