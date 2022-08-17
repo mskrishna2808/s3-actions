@@ -18,4 +18,4 @@ jobs:
       - name: coping readme file to s3 bucket
         run : aws s3 cp README.md s3://mskrishna2808
       - name: coping text file to s3 bucket
-        run : aws s3 cp testing.txt s3://mskrishna2808
+        run : aws s3 cp test.txt s3://mskrishna2808
